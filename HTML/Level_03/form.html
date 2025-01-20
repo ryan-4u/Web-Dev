@@ -10,24 +10,30 @@
         <form action="/action">
             <div>
                 <label for="username">Enter username :</label>
-                <input type="text" placeholder="username" id="username">
+                <input type="text" placeholder="username" id="username" name="user">
             </div>
             <div>
                 <label for="password">Enter Password :</label>
-                <input type="password" placeholder="password" id="password">
+                <input type="password" placeholder="password" id="password" name="pass">
             </div>
             <div>
                 <label for="age">Enter age :</label>
-                <input type="age" placeholder="Your Age" id="age">
+                <input type="age" placeholder="Your Age" id="age" name="age">
             </div>
+            <button type="submit">Submit</button>
+            <button type="reset">Refresh</button>
+
             <hr>
             <!-- Button using input -->
             <input type="button">
             <input type="button" value="click me">
             <input type="submit">
             <input type="submit" value="Please submit">
-
-
+        </form>
+        <hr><hr>
+        <form action="https://www.youtube.com/results">
+            <input type="text" placeholder="search in youtube" name="search_query"> 
+            <button type="submit">Submit</button>
         </form>
     </body>
 </html>
