@@ -6,7 +6,9 @@ h2{
     text-align: end;
     font-weight: 100;
     text-decoration: line-through;
+    letter-spacing: 7px;
 }
 p{
     text-align: justify;
+    line-height: 3;
 }
