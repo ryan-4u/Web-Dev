@@ -1,11 +1,11 @@
 p{
     color: #964B00;
     text-align: center;
-    color: #f00;
     line-height: 30px;
 }
 h1{
     text-align: center;
+    color: #f00;
 }
 h3{
     text-align: center;
@@ -24,4 +24,7 @@ button{
 }
 textarea{
     color: black;
+}
+spam{
+    text-decoration: underline;
 }
