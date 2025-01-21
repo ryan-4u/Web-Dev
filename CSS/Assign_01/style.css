@@ -18,3 +18,7 @@ a{
     color: rgb(0,255,0);
     text-decoration: none;
 }
+button{
+    color: blueviolet;
+    background-color: white;
+}
