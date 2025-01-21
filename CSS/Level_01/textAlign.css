@@ -1,8 +1,11 @@
 h1{
     text-align: center;
+    text-decoration: double royalblue underline;
 }
 h2{
     text-align: end;
+    font-weight: 100;
+    text-decoration: line-through;
 }
 p{
     text-align: justify;
