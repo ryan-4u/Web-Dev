@@ -1,3 +1,15 @@
 p{
-    color: #964B00;
+    background-color: #964B00;
+    text-align: center;
+    color: #f00;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: black;
+}
+h4{
+    text-align: center;
 }
