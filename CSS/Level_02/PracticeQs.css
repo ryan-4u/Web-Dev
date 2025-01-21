@@ -4,7 +4,10 @@
 h1{
     color: #1b74e4;
 }
-.search{
+#searchbtn{
     color: white;
     background-color: black;
+}
+.userbtn{
+    background-color: aqua;
 }
