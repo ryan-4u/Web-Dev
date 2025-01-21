@@ -21,15 +21,19 @@
         <form action="/server">
             <label for="volume">Volume</label>
             <input 
-            type="range"
-            max="100" 
-            min="0"
-            name="vol"
-            id="volume"
-            value="70"
-            step="5" 
+                type="range"
+                max="100" 
+                min="0"
+                name="vol"
+                id="volume"
+                value="70"
+                step="5" 
             />
             <button>submit</button>
+            <hr>
+            <label for="feedback">Please provide feedback:</label>
+            <textarea id="feedback" name="feedback"
+            rows="10" cols="100" placeholder="provide feedback"></textarea>
         </form>
     </body>
 </html>
