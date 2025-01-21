@@ -2,3 +2,12 @@ h1{
     color:aqua;
     background-color: blueviolet;
 }
+
+p{
+    color:blue;
+    background-color: azure;
+}
+button{
+    color: tomato;
+    background-color: yellowgreen;
+}
