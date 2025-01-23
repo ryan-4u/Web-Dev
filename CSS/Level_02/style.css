@@ -22,3 +22,10 @@ h3{
     background-color: green;
     color: aliceblue;
 }
+p a{
+    color: purple;
+    background-color: yellow;
+}
+nav ul li{
+    color: hotpink;
+}
