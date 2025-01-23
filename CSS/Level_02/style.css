@@ -1,3 +1,13 @@
 *{
     font-family:'Courier New';
 }
+/* h3{
+    color: purple;
+}
+h1{
+    color: #b92b27;
+} */
+h1,
+h3{
+    color: #b92b27;
+}
