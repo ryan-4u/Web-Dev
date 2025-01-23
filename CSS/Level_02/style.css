@@ -26,7 +26,7 @@ p a{
     color: purple;
     background-color: yellow;
 }
-nav ul li a{
+nav a{
     color: hotpink;
 }
 p+h3{
@@ -35,4 +35,7 @@ p+h3{
 .upvote+button{
     background-color:  cornflowerblue;
     color: darkblue;
+}
+div > input{
+    background-color: darksalmon;
 }
