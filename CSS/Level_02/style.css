@@ -11,3 +11,10 @@ h1,
 h3{
     color: #b92b27;
 }
+#login{
+    background-color: white;
+}
+#signup{
+    color: white;
+    background-color: #b92b27;
+}
