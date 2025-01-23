@@ -29,3 +29,10 @@ p a{
 nav ul li a{
     color: hotpink;
 }
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color:  cornflowerblue;
+    color: darkblue;
+}
