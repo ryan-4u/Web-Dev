@@ -70,7 +70,7 @@ input[type="radio"]:checked + label{
 }
 
 div:nth-of-type(2n+1){
-    background-color: rgb(40, 36, 31);
+    background-color: rgb(168, 159, 149);
 }
 
 h1::first-letter{
@@ -78,4 +78,11 @@ h1::first-letter{
 }
 p::selection{
     background-color: rgb(123, 123, 12);
+}
+
+h3{
+    background-color: aquamarine;
+}
+h3{
+    background-color: violet;
 }
