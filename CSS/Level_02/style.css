@@ -56,3 +56,11 @@ button:hover{
 h3:hover{
     text-decoration: overline;
 }
+
+button:active{
+    background-color: rgb(238, 136, 12);
+}
+p:active{
+    font-weight: bolder;
+    color: #0f0;
+}
