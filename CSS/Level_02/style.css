@@ -68,3 +68,11 @@ input[type="radio"]:checked + label{
     color: red;
     font-weight: bold;
 }
+
+div:nth-of-type(2n+1){
+    background-color: rgb(40, 36, 31);
+}
+
+h1::first-letter{
+    color: blue;
+}
