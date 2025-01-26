@@ -2,4 +2,16 @@ div{
     height: 200px;
     width: 500px;
     background-color: cadetblue;
+    /* border-width:5px ;
+    border-color: rgb(26, 3, 3);
+    border-style:solid ; */
+    border: 5px solid rgb(26, 3, 3);
+    border-left-color: orangered;
+    border-left-style:double ;
+}
+h1{
+    /* border-style: dotted;
+    border-width: 2px;
+    border-color: rgb(237, 11, 75); */
+    border: 2px dotted rgb(237, 11, 75);
 }
