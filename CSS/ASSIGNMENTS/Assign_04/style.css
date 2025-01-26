@@ -5,6 +5,7 @@
   width: 100px;
   height: 100px;
   background: green;
+  transition: width 2s ease-in 0.5s;
 }
 
 #box1:hover {
@@ -18,6 +19,7 @@
   width: 100px;
   height: 100px;
   background: red;
+  transform: translate(200px,200px) rotate(90deg);
 }
 
 /* Qs3. Using transform, skew box3 20deg along the x axis.*/
@@ -26,6 +28,7 @@
   width: 100px;
   height: 100px;
   background: lightblue;
+  transform: skewX(20deg);
 }
 
 /* Qs4. Set a 2px horizontal & 2px vertical, green shadow 
@@ -35,6 +38,7 @@
   width: 100px;
   height: 100px;
   background: lightgreen;
+  box-shadow: 2px 2px 5px green
 }
 
 /* Qs5. Set Your picture or any picture as the background of the div
@@ -44,4 +48,7 @@
   width: 200px;
   height: 200px;
   background: pink;
+  background-image: url(man.png);
+  background-size: cover ;
+  opacity: 50%;
 }
