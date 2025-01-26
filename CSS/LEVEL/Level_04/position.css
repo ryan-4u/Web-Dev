@@ -28,3 +28,10 @@ div{
     top: 100px;
     left:100px
 }
+
+#fixed{
+    background-color: darkcyan;
+    position: fixed;
+    top: 100px;
+    left:100px
+}
