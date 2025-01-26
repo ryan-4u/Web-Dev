@@ -13,3 +13,8 @@ div p{
     color: white;
     background-color: cornflowerblue;
 }
+
+div button{
+    color:azure;
+    background-color: purple;
+}
