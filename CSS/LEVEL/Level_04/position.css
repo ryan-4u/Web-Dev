@@ -1,0 +1,10 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    text-align: center;
+    border: 3px double black;
+    margin: 25px;
+    display:inline-block
+}
+
