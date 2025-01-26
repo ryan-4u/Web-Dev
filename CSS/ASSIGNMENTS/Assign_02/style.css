@@ -9,3 +9,7 @@ h3,
 h5{
     font-family: Georgia;
 }
+div p{
+    color: white;
+    background-color: cornflowerblue;
+}
