@@ -1,8 +1,8 @@
 .container{
-    display: grid;
-    width: 600px;
     height: 300px;
-    background-color:azure ;
+    width: 600px;
+    background-color: black;
+    display: grid;
 }
 
 .items{
