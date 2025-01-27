@@ -1,0 +1,21 @@
+#container{
+    display: flex;
+    height: 50px;
+    width: 900px;
+    border-radius: 10px;
+    border: 2px solid slategrey;
+    background-color: violet;
+    align-items: center;
+    margin: 50px;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#container div{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    margin: 10px;
+    /* align-content: center; */
+    line-height: 45px;
+}
