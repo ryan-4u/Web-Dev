@@ -3,8 +3,11 @@
     width: 600px;
     background-color: black;
     display: grid;
-    grid-template-rows: 50px 50px 50px 50px 50px;
-    grid-template-columns: 200px 200px 200px ;
+    /* grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 200px 200px 200px ; */
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 10px;
 }
 
 .items{
@@ -14,3 +17,16 @@
     background-color: greenyellow;
     text-align: center;
 }
+/* 
+#one{
+    /* grid-column-start:1 ;
+    grid-column-end:4 ; */
+    /* grid-column: 1/span 2;
+}
+
+#four{
+    height: 100px;
+    width: 300px;
+    grid-column: 2/4;
+    grid-row: 2/5;
+} */ 
