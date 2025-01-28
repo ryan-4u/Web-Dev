@@ -36,3 +36,30 @@ div div{
 .six{
     grid-column: 1/13;   
 } 
+
+@media(max-width:720px){
+    .one{
+        grid-column: 1/13;
+    }
+    
+    .two{
+        grid-column: 1/4;
+        grid-row: 3/12;
+    }
+    .three{
+        grid-column: 1/13;
+        grid-row: 2/3;
+    }
+    .four{
+        grid-column: 1/4;
+        grid-row: 12/13;
+    }
+    .five{
+        grid-row: 3/12;
+        grid-column: 4/13;
+    
+    }
+    .six{
+        grid-column: 4/13;   
+    } 
+}
