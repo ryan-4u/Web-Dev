@@ -1,0 +1,38 @@
+.main{
+    height: 600px;
+    width: 1000px;
+    
+    border: 3px soild black;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap:10px;
+}
+
+div div{
+
+    background-color: pink;
+}
+  .one{
+    grid-column: 1/13;
+}
+
+.two{
+    grid-column: 1/4;
+    grid-row: 2/12;
+}
+.three{
+    grid-column: 4/10;
+}
+.four{
+    grid-column: 10/13;
+    grid-row: 2/12;
+}
+.five{
+    grid-row: 3/12;
+    grid-column: 4/10;
+
+}
+.six{
+    grid-column: 1/13;   
+} 
