@@ -8,7 +8,7 @@ body {
 .main{
     display: flex;
     height: 100vh;
-
+    
 }
 
 .sidebar{
@@ -60,4 +60,34 @@ a{
 }
 .nav-option:hover{
     opacity: 1;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    margin-top: 0.5rem ;
+    padding: 0.5rem 0.75rem;
+}
+
+.options{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i{
+    opacity: 0.75;
+    margin:1rem;
+}
+.icons i:hover{
+    opacity: 1;
+}
+
+.lib-option img {
+    height: 1.25rem;
+    width: 1.25rem;
 }
