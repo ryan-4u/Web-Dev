@@ -1,3 +1,8 @@
+// practice question 03
+function avgOfThree(a,b,c){
+    let avg = (a + b + c) / 3;
+    console.log(avg);
+}
 // practice question 02
 function rollDice(){
     let num = Math.floor(Math.random()*6)+ 1;
