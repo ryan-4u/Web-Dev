@@ -48,9 +48,13 @@
 //     }
 //     console.log(i);
 // }
-console.log("Loops with Arrays");
-let fruits = ["apple","orange","mango","banana","berry"];
+// console.log("Loops with Arrays");
+// let fruits = ["apple","orange","mango","banana","berry"];
 
-for(let i=0; i<fruits.length ; i++){
-    console.log(i, fruits[i]);
+// for(let i=0; i<fruits.length ; i++){
+//     console.log(i, fruits[i]);
+// }
+console.log("for-of loop");
+for(char of "apna college"){
+    console.log(char);
 }
