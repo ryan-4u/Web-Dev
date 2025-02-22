@@ -36,9 +36,15 @@
 //         console.log(j);
 //     }    
 // } 
-console.log("While loop");
-let i = 0 ;
-while(i<=7){
+// console.log("While loop");
+// let i = 0 ;
+// while(i<=7){
+//     console.log(i);
+//     i++;
+// }
+for(let i=0 ; i<5 ;i++){
+    if(i==4){
+        break;
+    }
     console.log(i);
-    i++;
 }
