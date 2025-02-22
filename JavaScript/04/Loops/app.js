@@ -42,9 +42,15 @@
 //     console.log(i);
 //     i++;
 // }
-for(let i=0 ; i<5 ;i++){
-    if(i==4){
-        break;
-    }
-    console.log(i);
+// for(let i=0 ; i<5 ;i++){
+//     if(i==4){
+//         break;
+//     }
+//     console.log(i);
+// }
+console.log("Loops with Arrays");
+let fruits = ["apple","orange","mango","banana","berry"];
+
+for(let i=0; i<fruits.length ; i++){
+    console.log(i, fruits[i]);
 }
