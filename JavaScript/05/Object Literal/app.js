@@ -42,3 +42,12 @@ let classInfo = {
         city : "Haryana",
     }
 };
+console.log("Generating random no b/w 1 to 10");
+let num = Math.random();
+num = num*10 ;
+num = Math.floor(num) ;
+num = num + 1 ;
+ 
+// 1 to 100
+r1to100 = Math.floor(Math.random()*100) + 1 ;
+r1to5 = Math.floor(Math.random()*5) + 1 ;
