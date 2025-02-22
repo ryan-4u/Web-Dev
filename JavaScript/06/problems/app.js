@@ -1,3 +1,9 @@
+// practice question 04
+function printTable(n){
+    for(let i=n ; i <= n*10 ; i = i+n){
+        console.log(i);
+    }
+}
 // practice question 03
 function avgOfThree(a,b,c){
     let avg = (a + b + c) / 3;
