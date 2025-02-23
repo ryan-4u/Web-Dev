@@ -25,4 +25,36 @@ function isAdult(age) {
  const sum3 = function (a , b , c) {
      return (a*b)/c
  }
- // h
+ // high order function
+ // 1. fuction as argument
+ function multiGreet(func , count){
+     for(let i=1 ; i<=count ; i++){
+        func();
+     }
+ }
+ //2. retuens a function
+ function oddEvenReq(request){
+     if(request == "odd"){
+         return function(n){
+            console.log(!(n%2 == 0));
+         }
+     } else if (request == "even"){
+         return function(n){
+            console.log(n%2 == 0);
+         }
+     } else {
+         console.log("wrong req")
+     }
+ }
+ //methods
+ const calculator = {
+     add: function(a,b){
+         return a+b ;
+     },
+     sub: function(a,b){
+        return a-b ;
+    },
+    mul: function(a,b){
+        return a*b ;
+    }
+ };
