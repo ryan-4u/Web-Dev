@@ -21,3 +21,8 @@ function isAdult(age) {
         return "not adult";
     }
 }
+// function expressions
+ const sum3 = function (a , b , c) {
+     return (a*b)/c
+ }
+ // h
