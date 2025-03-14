@@ -97,3 +97,16 @@ let check2 = even.every( (num)=> {
 
 
 // 6. reduce
+// reduces array to a single value
+// let number = [1,2,3,4] ;
+// let finalValue = number.reduce( (res,el) => {
+//     console.log(res);
+//     return res+el ; 
+// });
+// console.log(finalValue) ;
+ // findig max value in array using reduce method
+let array = [23,45,67,54,31,89] ;
+let maxValue = array.reduce( (max,checker) => {
+    if(max<checker) return checker ;
+    else return max ;
+});
