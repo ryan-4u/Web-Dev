@@ -68,10 +68,32 @@ let gpa = students.map( (el) =>
 //note: in case of function doesn't returns any value
 //      array will stil be formed with undefined as values
 
+
 // 3. filter
+// it also returns an array like map but it doesn't return 
+// all the values , it return only values which are true 
+// after passing through the function
+// for e.g.
+let nums = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+let even = nums.filter( (num) => {
+   return num%2 == 0 ; // even -> true , odd -> false
+});
 
-// 4. some
 
-// 5. every
+ 
+// 4. every
+// returns true if every element of array
+// gives true otherwise returns false
+let check1 = nums.every( (num)=> {
+    return num%2 == 0 ; // even -> true , odd -> false
+});
+let check2 = even.every( (num)=> {
+    return num%2 == 0 ; 
+});
+// basically #behaves_like_LOGICAL_AND
+
+// 5. some
+//   #behaves_like_LOGICAL_OR
+
 
 // 6. reduce
