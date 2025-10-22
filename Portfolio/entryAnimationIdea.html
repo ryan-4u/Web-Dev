@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aaryan | Portfolio</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #0a0f18;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+  }
+
+  /* ===== Splash Screen ===== */
+  #splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    animation: fadeOut 1s ease forwards;
+    animation-delay: 2.5s; /* after 2.5s, fade out splash */
+  }
+
+  #splash h1 {
+    font-size: 3em;
+    letter-spacing: 4px;
+    color: #0af;
+    opacity: 0;
+    animation: glowIn 2s ease forwards;
+  }
+
+  @keyframes glowIn {
+    0% { opacity: 0; transform: scale(0.8); text-shadow: 0 0 0px #0af; }
+    50% { opacity: 1; transform: scale(1); text-shadow: 0 0 20px #0af, 0 0 40px #00f; }
+    100% { opacity: 1; transform: scale(1.1); text-shadow: 0 0 10px #0af; }
+  }
+
+  @keyframes fadeOut {
+    to { opacity: 0; visibility: hidden; }
+  }
+
+  /* ===== Main Portfolio ===== */
+  #portfolio {
+    opacity: 0;
+    animation: showPortfolio 1.5s ease forwards;
+    animation-delay: 3s; /* show after splash fades */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  @keyframes showPortfolio {
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  /* Placeholder content (replace with your real portfolio) */
+  .content {
+    text-align: center;
+  }
+
+  .content h2 {
+    font-size: 2em;
+    color: #0af;
+    margin-bottom: 10px;
+  }
+
+  .content p {
+    color: #ccc;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Splash Screen -->
+  <div id="splash">
+    <h1>AARYAN</h1>
+  </div>
+
+  <!-- Main Portfolio -->
+  <div id="portfolio">
+    <div class="content">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Creative Developer | Designer | Learner</p>
+      <!-- You can add your skill carousel here later -->
+    </div>
+  </div>
+
+</body>
+</html>
