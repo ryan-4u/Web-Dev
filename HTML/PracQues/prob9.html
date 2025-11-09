@@ -7,21 +7,25 @@
         <title>Document</title>
     </head>
     <body>
-        <form action="/server">
-            <p><b>Registration form</b></p>
-            <input type="text" placeholder="first name" name="first_name" id="first_name">
-            <input type="text" placeholder="last name" name="last_name" id="last_name">
-            <br>
-            <p>Please select gender
+        <form action="#php" background="lightgrey">
+            <h1>Registration Form</h1>
+            <div>
+                <input type="text" name="name" id="name" placeholder="First name">
+                <input type="text" name="sname" id="sname" placeholder="Last name">
+            </div>
+            <label for="gender">Please select gender</label>
             <select name="gender" id="gender">
-                <option value="M">male</option>
-                <option value="F">female</option>
-                <option value="O">other</option>
-            </select></p>
-            <p>Do you agree to all terms of service?
-            <input type="checkbox" name="terms" id="terms">
-            <label for="terms">Yes,I agree</label></p>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Other</option>        
+            </select>   
+            <br>
+                <b>Do you agreee to all terms of service ?</b>
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree">Yes , I agree</label>
+            <br>
             <button>Register</button>
+            
         </form>
     </body>
 </html>
