@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 03 </title>
+</head>
+<body>
+    <hr> Question 01 <hr>
+    <table border="1">
+        <thead>
+            <caption><b>Student Information</b></caption>
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+        </thead>
+    
+    <tr>
+        <td>A</td>
+        <td>Delhi</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>Mumbai</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>C</td>
+        <td>Kolkata</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>D</td>
+        <td>Pune</td>
+        <td>4</td>
+    </tr>
+</table>
+<hr> Question 02 <hr>
+
+<form action="#">
+    <div>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" >
+    </div>
+    <div>
+        Sex: 
+        <input type="radio" name="sex" id="sex1" value="male">
+        <label for="sex1">Male </label>
+        <input type="radio" name="sex" id="sex2" value="female">
+        <label for="sex2">Female </label>
+    
+    </div>
+    <div>
+        <label for="sex">Country: </label>
+        <select name="country" id="country">
+            <option value="">Select an option</option>
+            <option value="in">India</option>
+            <option value="en">England</option>
+            <option value="us">USA</option>
+        </select>
+    </div>
+    <div>
+        Message: <br>
+        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+    </div>
+    <div>
+        <input type="checkbox" name="sub" id="sub">
+        <label for="sub">Subscribe?</label>
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+</form>
+<hr> Question 03 <hr>
+<form action="#">
+    <h1>Feedback Form</h1>
+    <div>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Write your name" >
+    </div>
+    <br>
+    <div>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="Write your email" >
+    </div>
+    <br>
+    <div>
+        Message: <br>
+        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+    </div>
+    <div>
+        Rate us out of 5: <br>
+        <input type="radio" value="1" name="rate" id="rate1">
+        <label for="rate1">1</label><br>
+        <input type="radio" value="2" name="rate" id="rate2">
+        <label for="rate2">2</label><br>
+        <input type="radio" value="3" name="rate" id="rate3">
+        <label for="rate3">3</label><br>
+        <input type="radio" value="4" name="rate" id="rate4">
+        <label for="rate4">4</label><br>
+        <input type="radio" value="5" name="rate" id="rate5">
+        <label for="rate5">5</label><br>
+    </div>
+    <br>
+    <button>Send your message !</button>
+</form>
+
+</body>
+</html>
