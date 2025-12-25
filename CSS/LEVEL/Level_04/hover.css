@@ -1,23 +1,25 @@
 .card{
-    height: 400px;
-    width: 250px;
-    border: 2px solid black;
     display: inline-block;
-    border-radius: 20px;
-    margin: 25px;
-    box-shadow: 0 4px 8px black;
-    transition: 1.5s;
+    margin: 10px;
+    border:3px solid blue;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px blue ;
+    transition: box-shadow 0.3s ease-in-out;
 }
-
-.desc{
-    text-align: center;
+.card:hover{
+    box-shadow: 0px 10px 20px blue;
 }
 
 img{
-    width: 100%;
-    border-radius: 25px 25px 0 0;
+    height: 300px;
+    width: 200px;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px ;
 }
-
-.card:hover{
-    box-shadow: 0 20px 20px black;
+.desc{
+    text-align: center;
+}
+h3,p{
+    color: goldenrod;
 }

@@ -1,8 +1,10 @@
 div{
     height: 100px;
     width: 100px;
-    background-color: pink;
-    border: 2px solid black;
+    border: 2px solid black ;
     border-radius: 50%;
     display: inline-block;
+    /* extra */
+    text-align: center;
+    line-height: 100px;
 }
