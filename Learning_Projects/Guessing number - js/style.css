@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh  ;
+    background-image: url(guess.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    text-decoration: double underline;
+    color: #1c2a92;
+    position: relative;
+    top: 30px;
+    background-color: rgb(223, 189, 53);
+    
+}
+.rules{
+    width: 50%;
+    margin: auto;
+    border: #1c2a92 solid 3px;
+    background-color: #475dff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+}
