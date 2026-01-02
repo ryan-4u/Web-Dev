@@ -1,0 +1,35 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    /* To prevent scroll bar from appearing  on complete webpage */
+    /* we only need it on the main content area */
+    overflow : hidden; 
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: #121212;
+    width: 320px;
+    border-radius: 1rem;
+}
+
+.main-content{
+    background-color: #121212;
+    flex: 1; /*now with this our .main-content will take up all the remaining space */
+    border-radius: 1rem;
+    overflow: auto;
+}
+
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
