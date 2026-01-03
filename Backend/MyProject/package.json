@@ -1,0 +1,16 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "my demo project to create package.json file",
+  "license": "ISC",
+  "author": "Aaryan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "figlet": "^1.9.4",
+    "give-me-a-joke": "^0.5.1"
+  }
+}
