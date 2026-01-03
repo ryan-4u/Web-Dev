@@ -1,6 +1,9 @@
 // // 1. forEach
 // // => now-a-days for-of loop is in use
 // //    but forEach is used widely in past
+// //    it applies the function as argument
+// //    to each element of the array
+// ------------------------------------------
 // //    for e.g.
 //         // 1. passing name in forEach
 //         let arr1 = [2,5,7,3,5];
