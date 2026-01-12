@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.cards {
+  background-color: #1b1b1b;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 90px;
+  height: 260px;
+  background: #292929;
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+  position: relative;
+  transition: width 0.4s ease;
+  overflow: hidden; /* IMPORTANT: stops headings overlapping other cards */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  width: 300px;
+  background: black;
+}
+
+/* Rotated title */
+.title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  transform-origin: center;
+  font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: all 0.4s ease;
+}
+
+
+/* Title on hover */
+.card:hover .title {
+  transform: translate(0,0) rotate(0deg);
+  top: 20px;
+  left: 20px;
+}
+
+/* Content hidden initially */
+.content {
+  opacity: 0;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  font-size: 14px;
+}
+
+/* Content appears */
+.card:hover .content {
+  opacity: 1;
+  transform: translateY(0px);
+}
