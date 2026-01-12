@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    color: black;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    gap: 5px;
+}
+
+.card p{
+    color: black;
+    border: 1px solid black;
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+    transition: all 0.5s;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p span{
+    min-width: 15em;
+    transform: rotate(-90deg);
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.card p:hover{
+    flex: 4 ;
+
+}
+.card p:hover span{
+    transform: rotate(0deg);
+}
