@@ -59,32 +59,46 @@ function changeColor(color,delay){
     return new Promise( (resolve,reject) => {
         setTimeout( () => {
             h1.style.color = color ;
-            resolve("color changed") ;
+            console.log(`color changed to ${color}`) ;
+            resolve() ;
         },delay); 
     })
 }
 
-changeColor("black")
-    .then( (result) => {
-        console.log("result is : ",result) ;
-        return changeColor("yellow") ;
-    })
-    .then( (result) => {
-        console.log("result is : ",result) ;
-        return changeColor("blue") ;
-    })
-    .then( (result) => {
-        console.log("result is : ",result) ;
-        return changeColor("green") ;
-    })
-    .then( (result) => {
-        console.log("result is : ",result) ;
-    })
-    .catch( () => {
-        console.log("NO change in color") ;
-    })
+// this method will work
+
+// changeColor("black")
+//     .then( (result) => {
+//         console.log("result is : ",result) ;
+//         return changeColor("yellow") ;
+//     })
+//     .then( (result) => {
+//         console.log("result is : ",result) ;
+//         return changeColor("blue") ;
+//     })
+//     .then( (result) => {
+//         console.log("result is : ",result) ;
+//         return changeColor("green") ;
+//     })
+//     .then( (result) => {
+//         console.log("result is : ",result) ;
+//     })
+//     .catch( () => {
+//         console.log("NO change in color") ;
+//     })
 
 
+// but with await keyword , its more easy 
 
 
+async function changingColor(){
+    await changeColor("red");
+    await changeColor("blue");
+    await changeColor("black");
+    await changeColor("yellow");
+    await changeColor("green");
+    await changeColor("brown");
+    await changeColor("gold");
+}
 
+changingColor()
