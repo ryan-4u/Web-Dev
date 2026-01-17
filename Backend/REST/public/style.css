@@ -1,0 +1,66 @@
+body{
+    box-sizing:border-box;
+}
+
+html {
+    /* Ensure vertical scroll is allowed, hide horizontal overflow */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+#nav h1{
+    color: maroon;
+    text-align: center  ;
+    text-decoration: underline;
+    position: absolute;
+    top: 10px;
+    left: 5%;
+}
+
+#nav button{
+    position: absolute;
+    top : 30px;
+    right: 30px;
+    background-color: maroon;
+    height: 40px;
+}
+#nav button a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.post{
+    /* height: 20vh; */
+    width: 100% ;
+    background-color: bisque;
+    padding: 0.1px 0px 10px 15px;
+    margin: 10px 0;
+}
+
+.user{
+    font-style: italic;
+}
+
+.btn{
+    background-color: aliceblue;
+    border: 3px solid rgb(196, 210, 222);
+    margin: 0 2px;
+    color: maroon;
+}
+.btn a{
+    color: maroon;
+    text-decoration: none;
+}
+form{
+    display: inline-block;
+}
+
