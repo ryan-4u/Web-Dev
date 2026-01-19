@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All users</title>
+</head>
+<style>
+    body{
+        background-color: rgb(186, 209, 210);
+    }
+    button{
+        border-radius: 5px;
+        background-color: black;
+        color: yellow;
+    }
+</style>
+<body>
+    <h1>Data Of ALL Users</h1>
+    <table border="black">
+        <tr>
+            <th>S.No/</th>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Email</th>
+        </tr>
+        <% for(user of users){ %>
+            <tr>
+                <td> <%=++i%> </td>
+                <td> <%=user.id%> </td>
+                <td> <%=user.username%> </td>
+                <td> <%=user.email%> </td>
+                <td>
+                    <form method="get" action="/user/<%=user.id%>/edit">
+                        <button>Edit username</button>
+                    </form>
+                </td>
+            </tr>
+            
+        <% } %>
+        
+    </table>
+</body>
+</html>
