@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form{
+    background-color: rgb(130, 196, 150);
+    border-radius: 50px 0 50px 0;
+    border: 5px solid rgb(1, 74, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 27px;
+    color: rgb(18, 53, 18);
+    background-color: rgb(130, 196, 150);
+}
+
+button{
+    transform: scale(1.05);
+}
