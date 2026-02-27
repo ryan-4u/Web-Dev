@@ -1,7 +1,11 @@
 import './App.css'
+import Title from "./Title.jsx"
+import ProductTab from './ProductTab.jsx';
 
 function App() {
-  return <button> I am the Main Character of my life</button>
+  return (
+    <ProductTab/>
+  );
 }
 
 export default App
